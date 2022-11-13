@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Table</title>
+	</head>
+	<body>
+		<h2> A simple table</h2>
+		<table border>
+			<tr>
+				<th>heading one</th>
+				<th>Heading two</th>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+			</tr>
+		</table>
+
+		<h2>A table with rowspan and single border</h2>
+		<table border style="border-collapse: collapse">
+			<tr>
+				<th>day/time</th>
+				<th>10-11</th>
+				<th>11-12</th>
+				<th>12-12:15</th>
+				<th>12:15-13:15</th>
+				<th>13:15-14:15</th>
+				<th>14:15-15</th>
+				<th>15-16</th>
+				<th>16-17</th>
+			</tr>
+			<tr>
+				<th>monday</th>
+				<td>class1</td>
+				<td>class2</td>
+				<td rowspan="6">short break</td>
+				<td>class3</td>
+				<td>class4</td>
+				<td rowspan="5">long break</td>
+				<td>class5</td>
+				<td>class6</td>
+			</tr>
+			<tr>
+				<th>Tuesday</th>
+				<td>class1</td>
+				<td>class2</td>
+				<td>class3</td>
+				<td>class4</td>
+				<td>class5</td>
+				<td>class6</td>
+			</tr>
+			<tr>
+				<th>wendsday</th>
+				<td>class1</td>
+				<td>class2</td>
+				<td>class3</td>
+				<td>class4</td>
+				<td>class5</td>
+				<td>class6</td>
+			</tr>
+			<tr>
+				<th>Thursday</th>
+				<td>class1</td>
+				<td>class2</td>
+				<td>class3</td>
+				<td>class4</td>
+				<td>class5</td>
+				<td>class6</td>
+			</tr>
+			<tr>
+				<th>Friday</th>
+				<td>class1</td>
+				<td>class2</td>
+				<td>class3</td>
+				<td>class4</td>
+				<td>class5</td>
+				<td>class6</td>
+			</tr>
+
+			<tr>
+				<th>Satarday</th>
+				<td>class1</td>
+				<td>class2</td>
+				<td>class3</td>
+				<td>class4</td>
+			</tr>
+		</table>
+
+		<h2>A single border table with iframe</h2>
+
+		<table border style="border-collapse: collapse">
+			<tr>
+				<th>link/title</th>
+				<th>Full stack Javascript bootcamp 2.0</th>
+				<th>A practical guide on Docker with projects | Docker Course</th>
+			</tr>
+			<tr>
+				<th>links</th>
+				<td>
+					<iframe
+						src="https://www.youtube.com/embed/WStKrvp8SOQ"
+						frameborder="0"
+						width="400"
+						height="200"
+					></iframe>
+				</td>
+				<td>
+					<iframe
+						src="https://www.youtube.com/embed/rr9cI4u1_88"
+						frameborder="0"
+						width="400"
+						height="200"
+					></iframe>
+				</td>
+			</tr>
+		</table>
+
+	</body>
+</html>
