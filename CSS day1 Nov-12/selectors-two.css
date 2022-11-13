@@ -1,0 +1,46 @@
+/* universal selector */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* individual selctor  */
+div{
+    background-color: rgb(10, 238, 238);
+}
+
+section{
+    background-color: rgb(193, 172, 215);
+}
+
+/* group selector */
+div, section{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 10px;
+}
+
+/* descendant combinator */
+/* all p tags inside p tags all em tags */
+
+div  p  em{
+    background-color: yellow;
+}
+
+
+/* direct child */
+/* first select p tag which is direct child of div and then inside that p em which is direct child of p tag  */
+
+div > p > em{
+    background-color:red
+}
+
+
+/* Adjucent sibling */
+div + section{
+    background-color: blue;
+}
+
+/* generl sibling selector */
+div ~ p{
+    background-color: green;
+}
