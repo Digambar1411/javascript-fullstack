@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>flexbox</title>
+		<link rel="stylesheet" href="flex.css" />
+	</head>
+	<body>
+		<h2>flex-direction</h2>
+		<p>flex-direction:row</p>
+		<div class="container flex">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+
+		<p>flex-direction:row-reverse</p>
+		<div class="container flex row-reverse">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+
+		<p>flex-direction:column</p>
+		<div class="container flex column">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+
+		<p>flex-direction:column-reverse</p>
+		<div class="container flex column-reverse">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+
+		<h2>justify-content</h2>
+		<p>justify-content:flex-start</p>
+		<div class="container flex flex-start">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+		<p>justify-content:flex-end</p>
+		<div class="container flex flex-end">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+		<p>justify-content:center</p>
+		<div class="container flex center">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+		<p>justify-content:space-between</p>
+		<div class="container flex space-btwn">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+		<p>justify-content:space-around</p>
+		<div class="container flex space-around">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+
+		<p>justify-content:space-evenly</p>
+		<div class="container flex space-evenly">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+
+		<h2>flex-wrap</h2>
+		<p>flex-wrap:nowrap</p>
+		<div class="container flex nowrap">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+		</div>
+
+		<p>flex-wrap:wrap</p>
+		<div class="container flex wrap">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+		</div>
+
+		<p>flex-wrap:wrap-reverse</p>
+		<div class="container flex wrap-reverse">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+		</div>
+
+		<h2>align-content</h2>
+		<p>align-content:flex-start</p>
+		<div class="container flex wrap align-content-flex-start">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+			<div class="box">box 10</div>
+		</div>
+		<p>align-content:flex-end</p>
+		<div class="container flex wrap align-content-flex-end">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+			<div class="box">box 10</div>
+		</div>
+		<p>align-content:center</p>
+		<div class="container flex wrap align-content-center">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+			<div class="box">box 10</div>
+		</div>
+		<p>align-content:space-btwn</p>
+		<div class="container flex wrap align-content-space-btwn">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+			<div class="box">box 10</div>
+		</div>
+		<p>align-content:space-around</p>
+		<div class="container flex wrap align-content-space-around">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+			<div class="box">box 10</div>
+		</div>
+
+		<h2>align-items</h2>
+		<p>align-items:stretch</p>
+		<div class="container flex align-items-stretch">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+			<div class="box">box 6</div>
+			<div class="box">box 7</div>
+			<div class="box">box 8</div>
+			<div class="box">box 9</div>
+			<div class="box">box 10</div>
+		</div>
+
+		<p>align-items:center</p>
+		<div class="container flex align-items-center">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+		</div>
+
+		<p>align-items:start</p>
+		<div class="container flex align-items-start">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+		</div>
+
+		<p>align-items:end</p>
+		<div class="container flex align-items-end">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+		</div>
+
+		<h2>gap</h2>
+		<p>column-gap</p>
+		<div class="container flex column-gap">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+
+		<p>row-gap</p>
+		<div class="container flex row-gap">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+
+		<p>gap</p>
+		<div class="container flex gap">
+			<div class="box">box 1</div>
+			<div class="box">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box">box 5</div>
+		</div>
+		<h1>child properties</h1>
+		<h2>order</h2>
+		<div class="container-small flex">
+			<div class="box">box 1</div>
+			<div class="box flex-order">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+		</div>
+
+		<h2>flex-grow</h2>
+		<div class="container-small flex">
+			<div class="box">box 1</div>
+			<div class="box flex-grow">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+		</div>
+
+		<h2>flex-shrink</h2>
+		<div class="container-small flex">
+			<div class="box">box 1</div>
+			<div class="box flex-shrink">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+		</div>
+
+		<h2>flex basis</h2>
+		<div class="container-small flex">
+			<div class="box">box 1</div>
+			<div class="box flex-basis">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+			<div class="box flex-basis">box 5</div>
+			<div class="box">box 6</div>
+		</div>
+
+		<h2>align-self</h2>
+
+		<p>align-self:flex-start</p>
+		<div class="container flex">
+			<div class="box">box 1</div>
+			<div class="box align-self-flex-start">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+		</div>
+
+		<p>align-self:flex-end</p>
+		<div class="container flex">
+			<div class="box">box 1</div>
+			<div class="box align-self-flex-end">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+		</div>
+
+		<p>align-self:center</p>
+		<div class="container flex">
+			<div class="box">box 1</div>
+			<div class="box align-self-center">box 2</div>
+			<div class="box">box 3</div>
+			<div class="box">box 4</div>
+		</div>
+
+	</body>
+</html>
+
+
