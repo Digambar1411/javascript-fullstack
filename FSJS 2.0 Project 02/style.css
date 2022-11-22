@@ -1,0 +1,114 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+*{
+    color:#ffffff;
+    --button-color:#ba0ddc;
+  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3.5rem;
+    padding: 0 4rem;
+    background-color: #171717;
+}
+
+.list-item{
+    margin-left: 2.5rem;
+}
+
+.logo{
+    height:1.5rem
+}
+
+.line{
+    margin-left: 2.5rem;
+    border-right: 1px solid #ffffff;
+    height: 2rem;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    font-weight:500;
+}
+
+.list:last-child{
+    margin-right: 2.5rem;
+}
+
+.grow-list + div{
+    margin-left: auto;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+.button-small{
+    margin-left: 1rem;
+    padding: 4px 18px;
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+    background-color: var(--button-color); 
+}
+
+.button-large{
+    padding: 10px 16px;
+    border: 1px solid var(--button-color);
+    border-radius: 7px;
+    background-color: var(--button-color);
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+.button-large::first-letter{
+    text-transform: uppercase;
+}
+
+.hero{
+    height: calc(100vh - 64px);
+    width:100%;
+    background-image: url("./assets/bg.png");
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-heading{
+    margin-top: 5rem;
+    font-size:50px;
+    width: 40rem;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.hero-description{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+}
+
+.list,.hero-description,button{
+    font-family: 'Poppins';
+}
