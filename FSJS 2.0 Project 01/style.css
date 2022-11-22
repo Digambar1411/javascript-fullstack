@@ -1,0 +1,105 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    --primary-color:#7055f5;
+    --light-text-color:#b5b2b2;
+    --primary-text-color:#1e167f;
+    font-family: 'Poppins';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    padding:0 5rem;
+}
+
+.navbar-container > div >img{
+    height:1.75rem;
+    width: 5rem;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+.list{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+.list-item{
+    margin-left: 1.5rem;
+    color:var(--light-text-color);
+    font-size: 12px;
+}
+
+li:first-child{
+    color:black;
+}
+
+.button-group{
+    margin-left: auto;
+}
+
+.nav-button{
+    color:#ffffff;
+    padding:10px 18px;
+    border:none;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+}
+
+.btn{
+    padding:1rem 2rem;
+    border-radius: 10px;
+}
+
+.description{
+    color: var(--light-text-color);
+}
+
+.banner-container{
+    display: flex;
+}
+
+.heading-text{
+    color:var(--primary-text-color);
+    font-size:2.65rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2.65rem;
+}
+
+.heading-text> span{
+    color: var(--primary-color);
+}
+
+.banner-container > div:first-child {
+    width:32%;
+    padding-left:5rem;
+    align-items: flex-start;
+}
+.banner-container > div:last-child{
+    margin-left: auto;
+}
+
+.banner-container > div > img{
+    width:550px;
+    height:420px;
+}
+
+.description{
+    margin-bottom:3rem;
+    margin-top: 0rem;
+    font-weight: 400;
+    font-size: 12px;
+}
