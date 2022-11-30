@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Search */
+    background: #F9F5ED;
+    font-family: "Poppins";
+}
+nav{
+    padding: 20px 10%;
+    height: 5rem;
+    height: 10vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+nav ul li img{
+    width: 5rem;
+}
+
+
+/* CSS for HERO Section */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    height:calc(100vh - 10vh);
+}
+
+.leftmain{
+    width: 35%;
+}
+
+.leftmain h1{
+    font-size:3rem;
+}
+
+.leftmain p{
+    font-size: 14px;
+    margin: 5% 0;
+}
+
+.leftmain button{
+    padding: 10px 18px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.rightmain{
+    padding-right: 3rem;
+    width: 50%;
+    margin-left: auto;
+}
+
+.upper-section{
+    display: flex;
+    gap: 1rem;
+}
+
+.upper-section img{
+    width: 35%;
+}
+
+.lower-section img{
+    margin-top:1rem;
+    width: 73%;
+
+}
